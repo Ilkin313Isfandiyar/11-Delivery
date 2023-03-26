@@ -1,0 +1,35 @@
+.firstCarouselImgMusteri{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: -10;
+
+}
+
+.mainCarousel{
+    background-color: #ECF2FF;
+    padding: 50px; 
+}
+
+.firstCarouselDiv{
+    text-align: center;
+}
+
+.firstCarouselDiv p {
+    width: 60%;
+    margin: auto;
+}
+
+.Carousel{
+    z-index: -10;
+    
+}
+
+.Carousel.Item{
+    z-index: -10;
+}
+
+.carouselp{
+    font-family: 'Ubuntu', sans-serif;
+
+}

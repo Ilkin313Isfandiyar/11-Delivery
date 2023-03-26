@@ -1,0 +1,130 @@
+/* .advantages{
+    display: flex;
+}
+
+.middleImageadv{
+    width: 350px;
+    height: 200px;
+}
+
+.firstImageadv{
+    width: 350px;
+    height: 200px;
+}
+
+.lastImageadv{
+    width: 250px;
+    height: 200px;
+} */
+
+.advantages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #DEF5E5;
+    width: 95%;
+    margin: auto;
+}
+
+.advantagesDiv{
+    width: 100px;
+}
+
+.advantageDiv h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.advantageDiv p{
+    font-size: 16px;
+}
+
+.advantageDiv{
+    text-align: center;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.advantageDiv h2 {
+    margin: 20px 0;
+}
+
+.advImage{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+/* .advImage1 {
+    width: 300px;
+} */
+
+@media screen and (max-width: 1115px) {
+    .advantages {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #DEF5E5;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .advantagesDiv{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1115px) {
+    .advantages {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #DEF5E5;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .advantagesDiv{
+        width: 150px;
+    }
+
+    .advImage{
+        width: 140px;
+        height: 100px;
+        border-radius: 20px;
+    }
+
+    .advantageDiv h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .advantageDiv p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 600) {
+    .advantages {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #DEF5E5;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .advantagesDiv{
+        width: 150px;
+        display: block;
+    }
+
+    .advImage{
+        width: 100px;
+        height: 80px;
+        border-radius: 20px;
+    }
+}

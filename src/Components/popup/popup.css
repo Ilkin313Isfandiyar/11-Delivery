@@ -1,0 +1,606 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }@media (min-width: 1280px) and (max-width: 1664px) {
+    .program-kurs {
+       width: 100%;
+       margin: auto;
+    }
+    h1 {
+        width: 90%;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 101.38%;
+        color: #000000;
+        margin-bottom: 6%;
+    }
+    .kartlar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: -37px;
+    }
+    .card-first {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-second {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-third {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-fourth {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-fifth {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-sixth {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-seventh {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-eighth {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-heading {
+        width: 90%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 5%;
+        line-height: 97%;
+        color: #000000;
+    }
+    .card-text {
+        width: 60%;
+        margin-left: 5%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 130%;
+        color: #000000;
+    }
+    .eighth-text {
+        margin-top: 1%;
+    }
+}
+
+@media (min-width: 1665px) {
+    .program-kurs {
+        margin-left: 10%;
+    }
+    h1 {
+        width: 90%;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 101.38%;
+        color: #000000;
+        margin-bottom: 6%;
+    }
+    .kartlar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    .card-first {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-second {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-third {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-fourth {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-fifth {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-sixth {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-seventh {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-eighth {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .card-heading {
+        width: 90%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 5%;
+        line-height: 97%;
+        color: #000000;
+    }
+    .card-text {
+        width: 60%;
+        margin-left: 5%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 130%;
+        color: #000000;
+    }
+    .eighth-text {
+        margin-top: 1%;
+    }
+}
+
+
+/* tablet */
+
+@media (min-width: 834px) and (max-width: 1280px) {
+    /*.program-kurs {
+        margin-left: 5%;
+    }*/
+    h1 {
+        width: 90%;
+
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 101.38%;
+
+        color: #000000;
+        margin-bottom: 6%;
+    }
+    .kartlar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: -21.43px;
+    }
+    .card-first {
+        width: 231.09px;
+        height: 189.97px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .reward {
+        width: 100%;
+    }
+    .card-second {
+        width: 231.09px;
+        height: 189.97px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .paper {
+        width: 100%;
+    }
+    .card-third {
+        width: 231.09px;
+        height: 189.97px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .movie {
+        width: 100%;
+    }
+    .card-fourth {
+        width: 231.09px;
+        height: 189.97px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .lent {
+        width: 100%;
+    }
+    .card-fifth {
+        width: 231.09px;
+        height: 189.97px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .mask {
+        width: 100%;
+    }
+    .card-sixth {
+        width: 231.09px;
+        height: 189.97px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .seminar {
+        width: 100%;
+    }
+    .card-seventh {
+        width: 231.09px;
+        height: 189.97px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .star {
+        width: 100%;
+    }
+    .card-eighth {
+        width: 231.09px;
+        height: 189.97px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    .glasses {
+        width: 100%;
+    }
+    .card-heading {
+        width: 90%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 5%;
+        line-height: 97%;
+        color: #000000;
+    }
+    .card-text {
+        width: 60%;
+        margin-left: 5%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 130%;
+        color: #000000;
+    }
+    .eighth-text {
+        margin-top: 1%;
+    }
+}
+
+
+/* mobile */
+
+@media (min-width: 320px) and (max-width: 833px) {
+    /*.program-kurs {
+        padding-left: 36px;
+    }*/
+    h1 {
+        width: 90%;
+        height: 43.34px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 101.38%;
+        color: #000000;
+        margin-bottom: 35.66px;
+    }
+    .kartlar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 97%;
+    }
+    .card-first {
+        width: 186px;
+        height: 153px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        margin-bottom: 24px;
+        margin-right: 6%;
+    }
+    .reward {
+        width: 100%;
+    }
+    .card-second {
+        width: 186px;
+        height: 153px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        margin-bottom: 24px;
+        margin-right: 6%;
+    }
+    .paper {
+        width: 100%;
+    }
+    .card-third {
+        width: 186px;
+        height: 153px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        margin-bottom: 24px;
+        margin-right: 6%;
+    }
+    .movie {
+        width: 100%;
+    }
+    .card-fourth {
+        width: 186px;
+        height: 153px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        margin-bottom: 24px;
+        margin-right: 6%;
+    }
+    .lent {
+        width: 100%;
+    }
+    .card-fifth {
+        width: 186px;
+        height: 153px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        margin-bottom: 24px;
+        margin-right: 6%;
+    }
+    .mask {
+        width: 100%
+    }
+    .card-sixth {
+        width: 186px;
+        height: 153px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        margin-bottom: 24px;
+        margin-right: 6%;
+    }
+    .seminar {
+        width: 100%;
+    }
+    .card-seventh {
+        width: 186px;
+        height: 153px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        margin-bottom: 24px;
+        margin-right: 6%;
+    }
+    .star {
+        width: 100%;
+    }
+    .card-eighth {
+        width: 186px;
+        height: 153px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        margin-bottom: 24px;
+        margin-right: 6%;
+    }
+    .glasses {
+        width: 100%
+    }
+    .card-heading {
+        width: 90%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 2%;
+        margin-bottom: 15px;
+        margin-left: 5%;
+        line-height: 97%;
+        color: #000000;
+    }
+    .card-text {
+        width: 60%;
+        margin-left: 5%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 130%;
+        color: #000000;
+    }
+    .eighth-text {
+        margin-top: -15px;
+    }
+}

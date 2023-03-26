@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    text-align: center;
+}
+
+.orders{
+    background-color: #ECF2FF;
+}
+
+.mainDivOrders  {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+table, tr, th,td{
+    /* border: 2px dotted black; */
+    border-bottom: 1px solid black;
+
+}
+
+table tr {
+    font-size: 18px;
+}
+
+table td {
+    /* padding: 10px; */
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 50px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    
+}
+
+
+table th {
+    font-size: 25px;
+}
+
+button{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+
+    
+    
+}
+
+.deleteBtn{
+    background-color: #d72503;
+}
+
+.editBtn{
+    background-color: #09aeae;
+}
+
+.qebul{
+    background-color: black;;
+    
+}
+
+.update{
+    background-color: #ECF2FF;
+    color: black;
+}
+
+.ordersTable{
+    /* margin-bottom: 50px;
+    padding: 20px; */
+    background-color: #ECF2FF;
+
+}
+
+.orderDesc{
+    text-align: center;
+}
+
+.orderDesc h1{
+    font-size: 45px;
+}
+
+.orderDesc p {
+    font-size: 20px;
+}
+
+.deleteBtn, .editBtn{
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.deleteBtn i {
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.editBtn i {
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.spanUpdate {
+    color: white;
+}
+
+.updateLink {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1115px) {
+    .advantages {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #DEF5E5;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .advantagesDiv{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1115px) {
+    table tr {
+        font-size: 15px;
+    }
+    table th {
+        font-size: 20px;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 600) {
+    /* table tr {
+        font-size: 12px;
+    } */
+    table th {
+        font-size: 15px;
+    }
+}
